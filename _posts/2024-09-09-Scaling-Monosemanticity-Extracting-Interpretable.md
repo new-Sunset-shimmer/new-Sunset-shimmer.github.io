@@ -1,3 +1,7 @@
+---
+layout: post
+tags: [review]
+---
 # Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet (1)
 
 > 스터디용 리뷰
