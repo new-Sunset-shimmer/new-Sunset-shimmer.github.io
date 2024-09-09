@@ -2,7 +2,7 @@
 
 [context compressing][[2404.03626.pdf (arxiv.org)](https://arxiv.org/pdf/2404.03626.pdf)]
 
-![Screenshot 2024-04-08 at 15.34.49.png](_posts/Neurally Compressed Text 50202ca3d5584beb8700dcc1f7f72729/Screenshot_2024-04-08_at_15.34.49.png)
+![Screenshot 2024-04-08 at 15.34.49.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/Screenshot_2024-04-08_at_15.34.49.png?raw=true)
 
 ### **abstract** :
 
@@ -22,7 +22,7 @@ long-context를 한번에 압축하면 비효율적이고 성능에 제한이 �
 
 ex: Neural c (8bit token)=01001110 01100101 01110101 01110010 01100001 01101100 00100000 01100011(32bit window) 예시를 이렇게 들었지만 문장의 길이, 혹은 batch등에 인해서 여러 패턴이 관측될수있음
 
-![Screenshot 2024-04-08 at 15.34.49.png](Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/d66c7666-7d1a-4e12-b347-7259755f1b57.png)
+![Screenshot 2024-04-08 at 15.34.49.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/d66c7666-7d1a-4e12-b347-7259755f1b57.png?raw=true)
 
 ## **M1 모델:**
 
@@ -46,7 +46,7 @@ comressorion algorithm에서 나온 bitstream의 길이 l(X_0:N)는 최소한으
 
  
 
-![Screenshot 2024-04-08 at 15.34.49.png](Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/b51d3254-373b-4fa5-9be9-7dba841e89a6.png)
+![Screenshot 2024-04-08 at 15.34.49.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/b51d3254-373b-4fa5-9be9-7dba841e89a6.png?raw=true)
 
 M2는 들어온 token ID 를 기반으로 다음 token을 예측하는 모델이다. 이 때 m2모델은 m1모델보다 커야한다. 논문 실험 결과 m 1모델이 클경우 bitstream이 너무 압축이 너무 잘되어서 예측 및 학습이 안되는 문제가 발견됐다. 결국 m 1모델은 low-level structure[patterns of spelling, word frequency, and basic grammar etc]에 대해서만 학습  m 2는 큰 모델을 사용하여 high-level structure을 학습한다. 주된 예측과 task는 lm2에서 하며, M2 comress된  text가 의미와 내포하는 확률을 학습한다.
 
