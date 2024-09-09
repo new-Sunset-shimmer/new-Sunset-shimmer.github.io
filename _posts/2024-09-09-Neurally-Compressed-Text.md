@@ -30,7 +30,7 @@ M1 모델은 입력 context로 최소한의 길이를 가진 bitstream을 만들
 
 ### modeling: LM로서의 기능
 
-autogressive 모델의 분포 p(X_0:N) = p(x_i | x_0 … x_N)가 있으면 m1은 p(x_0:N)의 확률분포를 근사 가능해야한다. M1은 모델은 modeling을 위해서 들어온 segment의 다음 byte를 예측하며 학습한다.
+autogressive 모델의 분포 p(X_0:N) = p(x_i '|' x_0 … x_N)가 있으면 m1은 p(x_0:N)의 확률분포를 근사 가능해야한다. M1은 모델은 modeling을 위해서 들어온 segment의 다음 byte를 예측하며 학습한다.
 
 ### coding: compressor로서의 기능
 
