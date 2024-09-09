@@ -7,7 +7,7 @@ tags: [review]
 
 [context compressing][[2404.03626.pdf (arxiv.org)](https://arxiv.org/pdf/2404.03626.pdf)]
 
-![theme logo](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/Screenshot_2024-04-08_at_15.34.49.png)
+![theme logo](_posts/Neurally Compressed Text 50202ca3d5584beb8700dcc1f7f72729/Screenshot_2024-04-08_at_15.34.49.png)
 
 ### **abstract** :
 
