@@ -1,3 +1,7 @@
+---
+layout: post
+tags: [review]
+---
 # SLICEGPT: COMPRESS LARGE LANGUAGE MODELS
 BY DELETING ROWS AND COLUMNS
 
