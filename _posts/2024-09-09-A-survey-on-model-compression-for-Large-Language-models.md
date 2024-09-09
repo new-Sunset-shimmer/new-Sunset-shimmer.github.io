@@ -1,8 +1,12 @@
+---
+layout: post
+tags: [review]
+---
 # A survey on model compression for Large Language models
 
 [A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633)
 
-![Screenshot 2024-05-23 at 01.53.27.png](A%20survey%20on%20model%20compression%20for%20Large%20Language%20m%2058a272d14de646fbb75eda873a789cb2/Screenshot_2024-05-23_at_01.53.27.png)
+![Screenshot 2024-05-23 at 01.53.27.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/A%20survey%20on%20model%20compression%20for%20Large%20Language%20m%2058a272d14de646fbb75eda873a789cb2/Screenshot_2024-05-23_at_01.53.27.png?raw=true)
 
 ## Methods:
 
@@ -20,9 +24,9 @@
     1. White-box KD : 모델의 내부 구조, 파라미터까지 확인 가능한 경우에 채용됩니다. 학생 모델이 티쳐모델의 내부지식을 깊게 이해할수있습니다. 대부분은 open source 모델들이 티쳐모델로 채용됩니다.
     2. Black-Box KD :  티쳐 모델의 output만 확인 가능한 상황일때 많이 쓰입니다. output을 뽑을 때 in context learning 혹은 chain of thought, instruction following등 output 뽑는 방식을 사전에 정의 합니다.  
     
-    ![Screenshot 2024-05-23 at 20.41.53.png](A%20survey%20on%20model%20compression%20for%20Large%20Language%20m%2058a272d14de646fbb75eda873a789cb2/Screenshot_2024-05-23_at_20.41.53.png)
+    ![Screenshot 2024-05-23 at 20.41.53.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/A%20survey%20on%20model%20compression%20for%20Large%20Language%20m%2058a272d14de646fbb75eda873a789cb2/Screenshot_2024-05-23_at_20.41.53.png?raw=true)
     
-    ![Screenshot 2024-05-23 at 20.49.18.png](A%20survey%20on%20model%20compression%20for%20Large%20Language%20m%2058a272d14de646fbb75eda873a789cb2/Screenshot_2024-05-23_at_20.49.18.png)
+    ![Screenshot 2024-05-23 at 20.49.18.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/A%20survey%20on%20model%20compression%20for%20Large%20Language%20m%2058a272d14de646fbb75eda873a789cb2/Screenshot_2024-05-23_at_20.49.18.png?raw=true)
     
 3. Quantization
     
