@@ -1,3 +1,7 @@
+---
+layout: post
+tags: [review]
+---
 # Neurally Compressed Text
 
 [context compressing][[2404.03626.pdf (arxiv.org)](https://arxiv.org/pdf/2404.03626.pdf)]
