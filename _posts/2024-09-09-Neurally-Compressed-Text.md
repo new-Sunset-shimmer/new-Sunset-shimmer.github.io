@@ -38,7 +38,7 @@ comressorion algorithm에서 나온 bitstream의 길이 l(X_0:N)는 최소한으
 
 ## Compression Algorithm(Arithmetic Coding):
 
-![Screenshot 2024-04-08 at 15.34.49.png](Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/17d09dd5-06e1-459d-94bb-d61e8eab0421.png)
+![Screenshot 2024-04-08 at 15.34.49.png](https://raw.githubusercontent.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/master/_posts/Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/17d09dd5-06e1-459d-94bb-d61e8eab0421.png)
 
 모델 M1에서 나온 tensor를 bitstream으로 변화시키는 모델이다(학습은 안함), 모델 1은 해당 bitstream의 길이를 짧게 만든다. 논문의 예시를 보면 모든 segment를 concat하고 m2모델로 입력하는 듯하다.
 
