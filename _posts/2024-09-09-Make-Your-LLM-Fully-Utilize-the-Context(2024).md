@@ -1,3 +1,8 @@
+---
+layout: post
+tags: [review]
+---
+
 # Make Your LLM Fully Utilize the Context(2024)
 
 > Make Your LLM Fully Utilize the Context
@@ -31,7 +36,7 @@
 - 해당 논문에서는 **INformation-INtensive (IN2) training** 소개했으며 추가로 model이 context를 제대로 이해하고있는지를 확인하기위해 새로운 평가 데이터셋 **VArious Long-context (VAL)**을 소개했다.
     - **IN2** : 모델의 context를 전부 이해하기위해서 즉 positional encoding의 편향 제거하기 위해 제안한 데이터 증강 방법이다. In2 에는 두가지의 데이터가 존재한다. 하나는 **Fine-Grained Information Awareness** 그리고 **Integration and Reasoning of Information**이다. 공통적으로 fixed windows로 Raw text 즉 문서를 쪼깨고 각 segment 혹은 segments에 대해 질문과 답변을 만들고 무작위 segments[임의로 생성]와 결합하여 Long context를 생성한다. Fine-Grained Information Awareness은 segment 하나에 대해 , Integration and Reasoning of Information은 여러 segment를 이용하여 Long context를 생성한다.
         
-        ![IN 학습방법](Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_15.59.28.png)
+        ![IN 학습방법](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_15.59.28.png?raw=true)
         
         IN 학습방법
         
@@ -41,7 +46,7 @@
         - backward : Database Entity Retrieval
         
     
-    ![데이터셋 예시](Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_16.23.08.png)
+    ![데이터셋 예시](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_16.23.08.png?raw=true)
     
     데이터셋 예시
     
@@ -52,11 +57,11 @@
 
 - 저자들은 Mistral-7B모델을 IN2 데이터셋을 적용하여 pretrain했으며 이를 FILM-7B이라고 명명했다.
 
-![Screenshot 2024-05-20 at 16.24.01.png](Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_16.24.01.png)
+![Screenshot 2024-05-20 at 16.24.01.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_16.24.01.png?raw=true)
 
-![Screenshot 2024-05-20 at 16.24.34.png](Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_16.24.34.png)
+![Screenshot 2024-05-20 at 16.24.34.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_16.24.34.png?raw=true)
 
-![Screenshot 2024-05-20 at 16.26.52.png](Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_16.26.52.png)
+![Screenshot 2024-05-20 at 16.26.52.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Make%20Your%20LLM%20Fully%20Utilize%20the%20Context(2024)%209d501b275e0e4b57b0ac4f1d4beef00c/Screenshot_2024-05-20_at_16.26.52.png?raw=true)
 
 ### 결론
 
