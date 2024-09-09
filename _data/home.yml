@@ -10,7 +10,7 @@ navbar_entries:
 
 project_entries:
   - title: few_shot-RAG-chatbot
-    url: 구현-설명
+    url: RAG-Project-exp
     desc: 2024 공모전. 
 
 old_project_entries:
