@@ -1,13 +1,8 @@
----
-layout: post
-tags: [review]
----
-
 # Neurally Compressed Text
 
 [context compressing][[2404.03626.pdf (arxiv.org)](https://arxiv.org/pdf/2404.03626.pdf)]
 
-![theme logo](_posts/Neurally Compressed Text 50202ca3d5584beb8700dcc1f7f72729/Screenshot_2024-04-08_at_15.34.49.png)
+![Screenshot 2024-04-08 at 15.34.49.png](Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/Screenshot_2024-04-08_at_15.34.49.png)
 
 ### **abstract** :
 
@@ -27,7 +22,7 @@ long-context를 한번에 압축하면 비효율적이고 성능에 제한이 �
 
 ex: Neural c (8bit token)=01001110 01100101 01110101 01110010 01100001 01101100 00100000 01100011(32bit window) 예시를 이렇게 들었지만 문장의 길이, 혹은 batch등에 인해서 여러 패턴이 관측될수있음
 
-![Screenshot 2024-04-08 at 15.34.49.png](![theme logo](Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/d66c7666-7d1a-4e12-b347-7259755f1b57.png))
+![Screenshot 2024-04-08 at 15.34.49.png](Neurally%20Compressed%20Text%2050202ca3d5584beb8700dcc1f7f72729/d66c7666-7d1a-4e12-b347-7259755f1b57.png)
 
 ## **M1 모델:**
 
