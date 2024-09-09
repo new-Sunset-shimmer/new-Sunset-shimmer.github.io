@@ -33,9 +33,9 @@ ex: Neural c (8bit token)=01001110 01100101 01110101 01110010 01100001 01101100 
 M1 모델은 입력 context로 최소한의 길이를 가진 bitstream을 만들기 위해서 학습한다. 그렇기 위해서 M1모델은 context에 대한 손실없는 압축이 필요로 해지며 “modeling”과 “coding” 두가지를 만족 시켜야한다.
 
 ### modeling: LM로서의 기능
-
-autogressive 모델의 분포 p(X_0:N) = p(x_i / x_0 … x_N)가 있으면 m1은 p(x_0:N)의 확률분포를 근사 가능해야한다. M1은 모델은 modeling을 위해서 들어온 segment의 다음 byte를 예측하며 학습한다.
-
+```yaml
+autogressive 모델의 분포 p(X_0:N) = p(x_i | x_0 … x_N)가 있으면 m1은 p(x_0:N)의 확률분포를 근사 가능해야한다. M1은 모델은 modeling을 위해서 들어온 segment의 다음 byte를 예측하며 학습한다.
+```
 ### coding: compressor로서의 기능
 
 comressorion algorithm에서 나온 bitstream의 길이 l(X_0:N)는 최소한으로 잛아야한다. 만약 l(X_0:N) 가우시안분포를 따를 경우 최대길이 L은 l(X_0:N)의 기대값이 된다. 고로 p의 가설들 H(p)는 L로 upperbound된다 L ≥ H(P)
