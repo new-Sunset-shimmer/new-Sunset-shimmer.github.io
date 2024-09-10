@@ -21,7 +21,7 @@ project_entries:
     url: https://github.com/new-Sunset-shimmer/Gesture
     desc: 2023 캡스톤 발표자 제스처 및 자세 식별 인공지능 모델. 
 
-Paper:
+Old Projects:
   - title: Improved Approaches to Merge Multiple LoRAs
     url: https://github.com/6a24108b-649c-4339-9bac-040cead58c51
     desc: 2024 KCC.
