@@ -1,3 +1,7 @@
+---
+layout: post
+tags: [review]
+---
 # Generative Agents
 
 > Generative Agents: Interactive Simulacra of Human Behavior
@@ -32,7 +36,7 @@
 
 - 마을에는 총 25의 특별한 agent가 존재하며 각각 다른 스프라이트를 가진다. 저자들은 agent의 직업, 성격, 다른 agent들과의 관계등 여러 정보를 설정했다.
 
-![Screenshot 2024-09-09 at 12.01.54.png](Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_12.01.54.png)
+![Screenshot 2024-09-09 at 12.01.54.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_12.01.54.png?raw=true)
 
 - Agent끼리는 자연어로 서로 의사소통한다. agent의 모든 행동은 자연어로 서술되며 게임에서는 이모티콘으로 표현된다. 위의 모든 해동은 agent의 아키텍쳐에 의해서 결정된다.
 - 유저 컨트롤: 유저는 agent들과 자어로 의사소통이 가능하며 그들의 내부 생각을 출력으로 받을수있다.
@@ -41,20 +45,20 @@
 - Relationship Memory : 다른 Agent의 행동 또는 말을 기억한다. 예를들어 사진 찍는 과제를 하는 Agent의 행동 혹은 말을 기억하여 나중에 다시 만났을 때 그에 대해 물어본다.
 - Coordination : Agent끼리 서로 협력하기도 한다. 서로 초청하거나 놀러가거나 서로의 행동에 영향을 끼친다.
 
-![Screenshot 2024-09-09 at 10.55.52.png](Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_10.55.52.png)
+![Screenshot 2024-09-09 at 10.55.52.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_10.55.52.png?raw=true)
 
 - Retrive : 메모리에 대화랑 올바른 기억을 가져오기 위해서는 기억들에 점수를 매긴다. recency 최신성, importance 중요도, relevance 연과도를 각각 점수를 매겨 가장 높은 점수의 정보를 가져온다. memry stream에는 reflection과 observation이 존재한다.
 
-![Screenshot 2024-09-09 at 15.38.52.png](Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_15.38.52.png)
+![Screenshot 2024-09-09 at 15.38.52.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_15.38.52.png?raw=true)
 
 - Reflect : Agent는 이전의 reflection, plan, 관측된 정보들을 합산하여 하나의 고차원의 abstract한 정보로 압축한다. 해당 압축된 정보를 reflection이라고 부른다.
 
-![Screenshot 2024-09-09 at 15.51.40.png](Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_15.51.40.png)
+![Screenshot 2024-09-09 at 15.51.40.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_15.51.40.png?raw=true)
 
 - plan : Agent는 사전에 어떤 활동을 할지 시간별로 정해둔다. 만약 논문을 쓸려는 경우 1시에서 부터 8시 까지 공부, 9시에 저녁, 10시에 잠 이런식으로 짤수있다. 중간 중간 plan을 바꿀수있다. 만약 공부하다가 다른 agent가 올시 질문, 대화를 할수있으며 대화의 결과 agent의 plan이 바뀔수있다.
 - 평가 :  controlled evalutuoin은 인터뷰 형식으로 진행되며 여기서 planing, reflection 그리고 memory retrieving이 제한될수있다. 인터뷰에는 self-knowledge, memory, plan, Reactions, reflections(완벽한 reflection은 아님)이 존재한다.
     
-    ![Screenshot 2024-09-09 at 16.07.50.png](Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_16.07.50.png)
+    ![Screenshot 2024-09-09 at 16.07.50.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Generative%20Agents%20a294abb1ee404ad0978b7f6557187ef4/Screenshot_2024-09-09_at_16.07.50.png?raw=true)
     
 - 평가 각각 아키텍쳐의 특정 기능을 제한했으며 Human Crowdworker은 인간을 agent로서 인터뷰한 기능이다. TrueSkill Rating은 Xbox Live 게임들에서 유저의 실력, 기능을 평가하는 지표다.
 
