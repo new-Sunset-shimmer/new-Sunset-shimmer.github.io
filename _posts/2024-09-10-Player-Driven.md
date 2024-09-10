@@ -1,3 +1,7 @@
+---
+layout: post
+tags: [review]
+---
 # Player-Driven
 
 > Player-Driven Emergence in LLM-Driven Game
@@ -25,7 +29,7 @@ LLM 생성형 게임에 대한 상용자의 인상
 
 - 해당 논문에서는 dejaboom이라는 게임을 개발하여 28의 유저들에게 플레이 하게 만들었다. 해당 게임은 아래와 같은 흐름으로 게임의 텍스트를 생성한다.
     
-    ![Screenshot 2024-09-10 at 13.49.32.png](Player-Driven%20c145ab7024ac4c91837c7e30362224cb/Screenshot_2024-09-10_at_13.49.32.png)
+    ![Screenshot 2024-09-10 at 13.49.32.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Player-Driven%20c145ab7024ac4c91837c7e30362224cb/Screenshot_2024-09-10_at_13.49.32.png?raw=true)
     
 
 ### Main result
@@ -34,6 +38,6 @@ LLM 생성형 게임에 대한 상용자의 인상
 - 하지만 40로는 출력까지의 시간이 길다고 토로했다(15초). 10프로는 npc의 성격이 일관적이지 않음을 한 대화에 너무 반복되는 텍스트, 14.28프로는 좀더 매력적인 캐릭터를 바랐다.
 - 플레이 결과 총 53(43개의 개별적인)개의 노드 획득했다. 각 노드에 대한 조사는 아래의 표와 같다.
 
-![Screenshot 2024-09-10 at 13.58.11.png](Player-Driven%20c145ab7024ac4c91837c7e30362224cb/Screenshot_2024-09-10_at_13.58.11.png)
+![Screenshot 2024-09-10 at 13.58.11.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Player-Driven%20c145ab7024ac4c91837c7e30362224cb/Screenshot_2024-09-10_at_13.58.11.png?raw=true)
 
-![Screenshot 2024-09-10 at 13.58.29.png](Player-Driven%20c145ab7024ac4c91837c7e30362224cb/Screenshot_2024-09-10_at_13.58.29.png)
+![Screenshot 2024-09-10 at 13.58.29.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Player-Driven%20c145ab7024ac4c91837c7e30362224cb/Screenshot_2024-09-10_at_13.58.29.png?raw=true)
