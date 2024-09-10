@@ -2,6 +2,7 @@
 layout: post
 tags: [review]
 ---
+
 # Automatic Bug Detection in LLM
 
 > Automatic Bug Detection in LLM-Powered Text-Based Games Using LLMs
