@@ -22,9 +22,9 @@ project_entries:
     desc: 2023 캡스톤 발표자 제스처 및 자세 식별 인공지능 모델. 
 
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+  - title: Improved Approaches to Merge Multiple LoRAs
+    url: https://github.com/6a24108b-649c-4339-9bac-040cead58c51
+    desc: 2024 KCC.
     highlight: NEW
 
 footer_entries:
