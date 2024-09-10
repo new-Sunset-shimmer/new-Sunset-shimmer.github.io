@@ -28,14 +28,9 @@ Paper:
     highlight: 학부논문
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
-
-  - title: twitter
-    url: https://twitter.com/abhinav
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/new-Sunset-shimmer
 
   - title: feed
     url: feed.xml
