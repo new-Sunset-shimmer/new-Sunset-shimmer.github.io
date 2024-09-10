@@ -23,7 +23,7 @@ project_entries:
 
 Paper:
   - title: Improved Approaches to Merge Multiple LoRAs
-    url: blob:https://github.com/6a24108b-649c-4339-9bac-040cead58c51
+    url: https://github.com/6a24108b-649c-4339-9bac-040cead58c51
     desc: 2024 KCC.
     highlight: 학부논문
 
