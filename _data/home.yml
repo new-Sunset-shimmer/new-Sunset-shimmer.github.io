@@ -16,6 +16,10 @@ project_entries:
   - title: Multi-LoRA-Composition
     url: https://github.com/new-Sunset-shimmer/multi_loras/tree/main/Multi-LoRA-Composition-main
     desc: 2024 KCC. 
+    
+  - title: Gesture
+    url: https://github.com/new-Sunset-shimmer/Gesture
+    desc: 2023 캡스톤 발표자 제스처 및 자세 식별 인공지능 모델. 
 
 old_project_entries:
   - title: Soopr
