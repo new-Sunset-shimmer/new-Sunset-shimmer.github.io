@@ -1,3 +1,7 @@
+---
+layout: post
+tags: [review]
+---
 # Automatic Bug Detection in LLM
 
 > Automatic Bug Detection in LLM-Powered Text-Based Games Using LLMs
@@ -24,13 +28,13 @@ LLM 생성형 텍스트 게임을 위한 버그 찾는 방법
 
 - 본 논문에서는 Dejaboom!이라는 LLM 생성형 게임을 주력 게임으로 선택했다. Dejaboom의 게임이 끝날때까지 나온 모든 텍스트와 게임의 로직(규칙 및 설명)을 모델에 입력으로 넣어 한줄로 요약한다.(매 step을 요약, 한꺼번에 요약하지 않음).
 
-![Screenshot 2024-09-10 at 12.36.16.png](Automatic%20Bug%20Detection%20in%20LLM%2083194a2154cf4f63bd136de6261fea2f/Screenshot_2024-09-10_at_12.36.16.png)
+![Screenshot 2024-09-10 at 12.36.16.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Automatic%20Bug%20Detection%20in%20LLM%2083194a2154cf4f63bd136de6261fea2f/Screenshot_2024-09-10_at_12.36.16.png?raw=true)
 
-![Screenshot 2024-09-10 at 12.41.59.png](Automatic%20Bug%20Detection%20in%20LLM%2083194a2154cf4f63bd136de6261fea2f/Screenshot_2024-09-10_at_12.41.59.png)
+![Screenshot 2024-09-10 at 12.41.59.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Automatic%20Bug%20Detection%20in%20LLM%2083194a2154cf4f63bd136de6261fea2f/Screenshot_2024-09-10_at_12.41.59.png?raw=true)
 
 - 해당 요약들을 모델은 다음 step에 얼마나 영향을 악영향을 끼쳤는지 에따라 점수를 매겨 낮은 점수 그리고 이상할 정도로 높은 점수를 가진 step들을 표시한다.
 
-![Screenshot 2024-09-10 at 12.44.49.png](Automatic%20Bug%20Detection%20in%20LLM%2083194a2154cf4f63bd136de6261fea2f/Screenshot_2024-09-10_at_12.44.49.png)
+![Screenshot 2024-09-10 at 12.44.49.png](https://github.com/new-Sunset-shimmer/new-Sunset-shimmer.github.io/blob/master/_posts/Automatic%20Bug%20Detection%20in%20LLM%2083194a2154cf4f63bd136de6261fea2f/Screenshot_2024-09-10_at_12.44.49.png?raw=true)
 
 ### Main result
 
