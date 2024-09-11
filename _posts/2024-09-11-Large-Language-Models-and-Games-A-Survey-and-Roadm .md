@@ -1,3 +1,7 @@
+---
+layout: post
+tags: [review]
+---
 # Large Language Models and Games:
 A Survey and Roadmap
 
